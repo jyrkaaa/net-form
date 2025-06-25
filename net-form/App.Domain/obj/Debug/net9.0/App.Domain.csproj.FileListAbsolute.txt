@@ -1,0 +1,17 @@
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/bin/Debug/net9.0/App.Domain.deps.json
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/bin/Debug/net9.0/App.Domain.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/bin/Debug/net9.0/App.Domain.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/bin/Debug/net9.0/Base.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/bin/Debug/net9.0/Base.Domain.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/bin/Debug/net9.0/Base.Domain.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/bin/Debug/net9.0/Base.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.csproj.AssemblyReference.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.AssemblyInfoInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.AssemblyInfo.cs
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.csproj.CoreCompileInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.csproj.Up2Date
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/refint/App.Domain.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/App.Domain.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.Domain/obj/Debug/net9.0/ref/App.Domain.dll

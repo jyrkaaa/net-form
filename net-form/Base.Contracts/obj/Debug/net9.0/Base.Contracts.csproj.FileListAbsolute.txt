@@ -1,0 +1,11 @@
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/bin/Debug/net9.0/Base.Contracts.deps.json
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/bin/Debug/net9.0/Base.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/bin/Debug/net9.0/Base.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/Base.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/Base.Contracts.AssemblyInfoInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/Base.Contracts.AssemblyInfo.cs
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/Base.Contracts.csproj.CoreCompileInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/Base.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/refint/Base.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/Base.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/Base.Contracts/obj/Debug/net9.0/ref/Base.Contracts.dll

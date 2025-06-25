@@ -1,0 +1,134 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "__EFMigrationsLock" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK___EFMigrationsLock" PRIMARY KEY,
+    "Timestamp" TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+INSERT INTO __EFMigrationsHistory VALUES('20250622162132_InitialCreate','9.0.6');
+CREATE TABLE IF NOT EXISTS "Sectors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Sectors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "ParentSectorId" INTEGER NULL,
+    "CreatedBy" TEXT NOT NULL,
+    "CreatedAt" TEXT NOT NULL,
+    "ChangedBy" TEXT NULL,
+    "ChangedAt" TEXT NULL,
+    "SysNotes" TEXT NULL,
+    CONSTRAINT "FK_Sectors_Sectors_ParentSectorId" FOREIGN KEY ("ParentSectorId") REFERENCES "Sectors" ("Id")
+);
+INSERT INTO Sectors VALUES(1,'Manufacturing',NULL,'seed','2025-06-25 07:25:04.063702',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(2,'Service',NULL,'seed','2025-06-25 07:25:04.117309',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(3,'Other',NULL,'seed','2025-06-25 07:25:04.117282',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(5,'Printing',NULL,'seed','2025-06-25 07:25:04.117198',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(6,'Food and Beverage',1,'seed','2025-06-25 07:25:04.116454',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(7,'Textile and Clothing',1,'seed','2025-06-25 07:25:04.117233',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(8,'Wood',1,'seed','2025-06-25 07:25:04.117255',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(9,'Plastic and Rubber',1,'seed','2025-06-25 07:25:04.117145',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(11,'Metalworking',1,'seed','2025-06-25 07:25:04.117056',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(12,'Machinery',1,'seed','2025-06-25 07:25:04.116979',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(13,'Furniture',1,'seed','2025-06-25 07:25:04.116906',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(18,'Electronics and Optics',1,'seed','2025-06-25 07:25:04.116435',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(19,'Construction materials',1,'seed','2025-06-25 07:25:04.115806',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(21,'Transport and Logistics',2,'seed','2025-06-25 07:25:04.117374',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(22,'Tourism',2,'seed','2025-06-25 07:25:04.11736',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(25,'Business services',2,'seed','2025-06-25 07:25:04.117316',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(28,'Information Technology and Telecommunications',2,'seed','2025-06-25 07:25:04.117328',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(29,'Energy technology',3,'seed','2025-06-25 07:25:04.117295',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(33,'Environment',3,'seed','2025-06-25 07:25:04.117301',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(35,'Engineering',2,'seed','2025-06-25 07:25:04.117322',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(37,'Creative industries',3,'seed','2025-06-25 07:25:04.117288',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(39,'Milk & dairy products',6,'seed','2025-06-25 07:25:04.116882',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(40,'Meat & meat products',6,'seed','2025-06-25 07:25:04.116871',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(42,'Fish & fish products',6,'seed','2025-06-25 07:25:04.116861',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(43,'Beverages',6,'seed','2025-06-25 07:25:04.116846',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(44,'Clothing',7,'seed','2025-06-25 07:25:04.117241',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(45,'Textile',7,'seed','2025-06-25 07:25:04.117248',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(47,'Wooden houses',8,'seed','2025-06-25 07:25:04.117275',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(51,'Wooden building materials',8,'seed','2025-06-25 07:25:04.117268',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(53,'Plastics welding and processing',559,'seed','2025-06-25 07:25:04.117184',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(54,'Packaging',9,'seed','2025-06-25 07:25:04.117151',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(55,'Blowing',559,'seed','2025-06-25 07:25:04.117171',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(57,'Moulding',559,'seed','2025-06-25 07:25:04.117178',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(62,'Forgings, Fasteners',542,'seed','2025-06-25 07:25:04.11712',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(66,'MIG, TIG, Aluminum welding',542,'seed','2025-06-25 07:25:04.117137',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(67,'Construction of metal structures',11,'seed','2025-06-25 07:25:04.117063',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(69,'Gas, Plasma, Laser cutting',542,'seed','2025-06-25 07:25:04.117128',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(75,'CNC-machining',542,'seed','2025-06-25 07:25:04.117093',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(91,'Machinery equipment/tools',12,'seed','2025-06-25 07:25:04.116993',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(93,'Metal structures',12,'seed','2025-06-25 07:25:04.117036',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(94,'Machinery components',12,'seed','2025-06-25 07:25:04.116986',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(97,'Maritime',12,'seed','2025-06-25 07:25:04.117009',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(98,'Kitchen',13,'seed','2025-06-25 07:25:04.116934',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(99,'Project furniture',13,'seed','2025-06-25 07:25:04.116972',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(101,'Living room',13,'seed','2025-06-25 07:25:04.116941',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(111,'Air',21,'seed','2025-06-25 07:25:04.11738',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(112,'Road',21,'seed','2025-06-25 07:25:04.117393',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(113,'Water',21,'seed','2025-06-25 07:25:04.117399',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(114,'Rail',21,'seed','2025-06-25 07:25:04.117386',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(121,'Software, Hardware',28,'seed','2025-06-25 07:25:04.117347',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(122,'Telecommunications',28,'seed','2025-06-25 07:25:04.117353',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(141,'Translation services',2,'seed','2025-06-25 07:25:04.117367',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(145,'Labelling and packaging printing',5,'seed','2025-06-25 07:25:04.117226',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(148,'Advertising',5,'seed','2025-06-25 07:25:04.117213',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(150,'Book/Periodicals printing',5,'seed','2025-06-25 07:25:04.117219',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(224,'Manufacture of machinery',12,'seed','2025-06-25 07:25:04.117',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(227,'Repair and maintenance service',12,'seed','2025-06-25 07:25:04.11705',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(230,'Ship repair and conversion',97,'seed','2025-06-25 07:25:04.11703',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(263,'Houses and buildings',11,'seed','2025-06-25 07:25:04.11707',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(267,'Metal products',11,'seed','2025-06-25 07:25:04.117079',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(269,'Boat/Yacht building',97,'seed','2025-06-25 07:25:04.117023',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(271,'Aluminium and steel workboats',97,'seed','2025-06-25 07:25:04.117016',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(337,'Other (Wood)',8,'seed','2025-06-25 07:25:04.117262',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(341,'Outdoor',13,'seed','2025-06-25 07:25:04.116965',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(342,'Bakery & confectionery products',6,'seed','2025-06-25 07:25:04.116813',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(378,'Sweets & snack food',6,'seed','2025-06-25 07:25:04.116899',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(385,'Bedroom',13,'seed','2025-06-25 07:25:04.11692',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(389,'Bathroom/sauna',13,'seed','2025-06-25 07:25:04.116913',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(390,'Children’s room',13,'seed','2025-06-25 07:25:04.116927',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(392,'Office',13,'seed','2025-06-25 07:25:04.116948',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(394,'Other (Furniture)',13,'seed','2025-06-25 07:25:04.116958',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(437,'Other',6,'seed','2025-06-25 07:25:04.116891',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(508,'Other',12,'seed','2025-06-25 07:25:04.117043',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(542,'Metal works',11,'seed','2025-06-25 07:25:04.117086',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(556,'Plastic goods',9,'seed','2025-06-25 07:25:04.117158',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(559,'Plastic processing technology',9,'seed','2025-06-25 07:25:04.117164',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(560,'Plastic profiles',9,'seed','2025-06-25 07:25:04.117191',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(576,'Programming, Consultancy',28,'seed','2025-06-25 07:25:04.117341',NULL,NULL,NULL);
+INSERT INTO Sectors VALUES(581,'Data processing, Web portals, E-marketing',28,'seed','2025-06-25 07:25:04.117335',NULL,NULL,NULL);
+CREATE TABLE IF NOT EXISTS "Users" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Users" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "AgreedToTerms" INTEGER NOT NULL,
+    "SessionString" TEXT NULL,
+    "CreatedBy" TEXT NOT NULL,
+    "CreatedAt" TEXT NOT NULL,
+    "ChangedBy" TEXT NULL,
+    "ChangedAt" TEXT NULL,
+    "SysNotes" TEXT NULL
+);
+INSERT INTO Users VALUES(1,'Test5',1,'1d684111-cc63-461f-aa77-524919ae2a8f','system','2025-06-25 07:25:46.514838',NULL,'2025-06-25 07:26:02.98001',NULL);
+CREATE TABLE IF NOT EXISTS "UserSectors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_UserSectors" PRIMARY KEY AUTOINCREMENT,
+    "UserId" INTEGER NOT NULL,
+    "SectorId" INTEGER NOT NULL,
+    "CreatedBy" TEXT NOT NULL,
+    "CreatedAt" TEXT NOT NULL,
+    "ChangedBy" TEXT NULL,
+    "ChangedAt" TEXT NULL,
+    "SysNotes" TEXT NULL,
+    CONSTRAINT "FK_UserSectors_Sectors_SectorId" FOREIGN KEY ("SectorId") REFERENCES "Sectors" ("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_UserSectors_Users_UserId" FOREIGN KEY ("UserId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+);
+INSERT INTO UserSectors VALUES(2,1,6,'system','2025-06-25 07:26:02.978891',NULL,NULL,NULL);
+DELETE FROM sqlite_sequence;
+INSERT INTO sqlite_sequence VALUES('Sectors',581);
+INSERT INTO sqlite_sequence VALUES('Users',1);
+INSERT INTO sqlite_sequence VALUES('UserSectors',2);
+CREATE INDEX "IX_Sectors_ParentSectorId" ON "Sectors" ("ParentSectorId");
+CREATE INDEX "IX_UserSectors_SectorId" ON "UserSectors" ("SectorId");
+CREATE INDEX "IX_UserSectors_UserId" ON "UserSectors" ("UserId");
+COMMIT;

@@ -1,0 +1,17 @@
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/bin/Debug/net9.0/Base.DAL.EF.deps.json
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/bin/Debug/net9.0/Base.DAL.EF.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/bin/Debug/net9.0/Base.DAL.EF.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/bin/Debug/net9.0/Base.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/bin/Debug/net9.0/Base.DAL.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/bin/Debug/net9.0/Base.DAL.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/bin/Debug/net9.0/Base.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.EF.csproj.AssemblyReference.cache
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.EF.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.EF.AssemblyInfoInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.EF.AssemblyInfo.cs
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.EF.csproj.CoreCompileInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.A0F3D010.Up2Date
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.EF.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/refint/Base.DAL.EF.dll
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/Base.DAL.EF.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/Base.DAL.EF/obj/Debug/net9.0/ref/Base.DAL.EF.dll

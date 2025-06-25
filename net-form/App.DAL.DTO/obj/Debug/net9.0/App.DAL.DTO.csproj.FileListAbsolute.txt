@@ -1,0 +1,15 @@
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/bin/Debug/net9.0/App.DAL.DTO.deps.json
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/bin/Debug/net9.0/App.DAL.DTO.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/bin/Debug/net9.0/App.DAL.DTO.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/bin/Debug/net9.0/Base.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/bin/Debug/net9.0/Base.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL.DTO.csproj.AssemblyReference.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL.DTO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL.DTO.AssemblyInfoInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL.DTO.AssemblyInfo.cs
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL.DTO.csproj.CoreCompileInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL..41CCC148.Up2Date
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL.DTO.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/refint/App.DAL.DTO.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/App.DAL.DTO.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.DAL.DTO/obj/Debug/net9.0/ref/App.DAL.DTO.dll

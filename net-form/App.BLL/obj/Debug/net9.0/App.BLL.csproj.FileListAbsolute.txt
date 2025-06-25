@@ -1,0 +1,15 @@
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/bin/Debug/net9.0/App.BLL.deps.json
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/bin/Debug/net9.0/App.BLL.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/bin/Debug/net9.0/App.BLL.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/bin/Debug/net9.0/App.BLL.Contracts.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/bin/Debug/net9.0/App.BLL.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.csproj.AssemblyReference.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.AssemblyInfoInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.AssemblyInfo.cs
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.csproj.CoreCompileInputs.cache
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.csproj.Up2Date
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/refint/App.BLL.dll
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/App.BLL.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/App.BLL/obj/Debug/net9.0/ref/App.BLL.dll
