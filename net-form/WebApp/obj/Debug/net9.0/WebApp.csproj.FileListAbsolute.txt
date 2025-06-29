@@ -385,3 +385,4 @@
 /Users/jurgenkuusik/Github/net-form/net-form/WebApp/bin/Debug/net9.0/App.BLL.dll
 /Users/jurgenkuusik/Github/net-form/net-form/WebApp/bin/Debug/net9.0/App.BLL.pdb
 /Users/jurgenkuusik/Github/net-form/net-form/WebApp/bin/Debug/net9.0/App.BLL.Contracts.pdb
+/Users/jurgenkuusik/Github/net-form/net-form/WebApp/obj/Debug/net9.0/WebApp.sourcelink.json

@@ -70,7 +70,6 @@ public class HomeController : Controller
             }
             user.AgreedToTerms = vm.AgreeToTerms;
             user.Name = vm.Name;
-            user.UserSectors = new List<App.DAL.DTO.UserSector>();
             user.UserSectors = vm.SelectedSectorIds.Select(s => new App.DAL.DTO.UserSector()
             {
                 SectorId = s
