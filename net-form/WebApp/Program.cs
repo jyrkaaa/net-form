@@ -49,12 +49,12 @@ else
     app.UseExceptionHandler("/Home/Error");
 }
 
-app.UseSession();
 app.UseHttpsRedirection();
 app.MapStaticAssets();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 app.UseAuthorization();
 
 // app.MapStaticAssets();
